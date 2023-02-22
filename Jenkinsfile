@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Starting Testing'
+                eco 'Starting Testing'
                 sh './pes2ug20cs043.exe'
                 echo 'Test Completed'
             }
